@@ -3,6 +3,15 @@ body {
   text-align: center;
   padding: 50px;
 }
+p {
+  margin: 0 auto 10px auto;
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+h2 {
+  margin: 0;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -21,6 +30,20 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 150px;
+}
+.message {
+  font-size: 32px;
+}
+
+/* Background */
+.redBg {
+  background-color: #e74c3c;
+}
+.greenBg {
+  background-color: #00bc8c;
+}
+.yellowBg {
+  background-color: #f39c12;
 }
 
 /* Buttons  */
